@@ -145,3 +145,7 @@ When responding with changes, output:
 - The full contents of any modified raw files (or a clear diff if requested).
 - Any new files in full.
 - A short changelog entry.
+
+## Task tracking
+
+Check `TASKS.md` for the current breakdown and mark tasks as complete when you finish them.
