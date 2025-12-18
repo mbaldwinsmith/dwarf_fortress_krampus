@@ -2,21 +2,22 @@
 
 #####
 # KRAMPUS THEMED ITEMS
-# Placeholder birch twig weapon and sack tool entries.
+# Birch twig weapon and sack tool entries.
 #####
 
 [ITEM_WEAPON:ITEM_WEAPON_BIRCH_TWIG]
     [NAME:birch twig:birch twigs]
-    [SIZE:500]
+    [VALUE:5]
+    [SIZE:400]
     [SKILL:WHIP]
-    [RANGED:BOW:ARROW]
     [TWO_HANDED:0]
-    [MINIMUM_SIZE:5000]
+    [MINIMUM_SIZE:4250]
     [MATERIAL_SIZE:1]
-    [ATTACK:BLUNT:10:1000:sting:stings:NO_SUB:1000]
-        [ATTACK_VERB:sting:stings]
-        [ATTACK_CONTACT_PERC:50]
+    [ATTACK:BLUNT:10:900:swat:swats:NO_SUB:900]
+        [ATTACK_VERB:swat:swats]
+        [ATTACK_CONTACT_PERC:60]
         [ATTACK_PENETRATION_PERC:5]
+        [ATTACK_FLAG_WITH]
         [ATTACK_PRIORITY:SECOND]
 
 [ITEM_TOOL:ITEM_KRAMPUS_SACK]

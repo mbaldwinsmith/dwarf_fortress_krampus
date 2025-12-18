@@ -2,7 +2,7 @@
 
 #####
 # KRAMPUS CREATURE RAW
-# Placeholder creature entry for seasonal megabeast with interaction-based lash/judgement/aura.
+# Seasonal megabeast that leans on interaction-based lash/judgement/aura tricks.
 #####
 
 [CREATURE:KRAMPUS]
@@ -27,8 +27,9 @@
     [NO_GENDER]
     [CANOPENDOORS]
 
-    ##### Physical form placeholders
-    [BODY:HUMANOID_NECK:2EARS:2EYES:2HORN:HEART:GUTS:BRAIN:MOUTH:THROAT:TEETH:NECK]
+    ##### Physical form and materials (ensures HAND/MOUTH/HORN/FOOT categories exist)
+    [BODY:HUMANOID_NECK:2EARS:2EYES:2HORN:LUNGS:HEART:GUTS:BRAIN:MOUTH:THROAT:TEETH:NECK]
+    [BODY_DETAIL_PLAN:STANDARD_HEAD_POSITIONS]
     [BODY_DETAIL_PLAN:STANDARD_MATERIALS]
     [BODY_DETAIL_PLAN:STANDARD_TISSUES]
     [BODY_DETAIL_PLAN:BODY_HAIR_TISSUE_LAYERS:LOCAL_CREATURE_MAT:HAIR:THICK]
@@ -44,7 +45,7 @@
     [MISCHIEVOUS]
     [SECRETION:LOCAL_CREATURE_MAT:PUS:LIQUID:BY_CATEGORY:HORN]
 
-    ##### Behavior pacing (to be tuned)
+    ##### Behavior pacing (tuned for interaction cadence)
     [SPEED:900]
     [DAMBLOCK:2]
     [SIZE:120000]
@@ -61,19 +62,22 @@
         [CDI:USAGE_HINT:ATTACK]
         [CDI:BP_REQUIRED:BY_CATEGORY:GRASP]
         [CDI:TARGET:A:LINE_OF_SIGHT]
-        [CDI:TARGET_RANGE:A:3]
-        [CDI:WAIT_PERIOD:50]
+        [CDI:TARGET_RANGE:A:4]
+        [CDI:VERB:lash:lashes]
+        [CDI:WAIT_PERIOD:45]
     [CAN_DO_INTERACTION:KRAMPUS_DREAD_AURA]
         [CDI:USAGE_HINT:GREETING]
         [CDI:TARGET:A:LINE_OF_SIGHT]
         [CDI:TARGET_RANGE:A:10]
         [CDI:MAX_TARGET_NUMBER:A:5]
-        [CDI:WAIT_PERIOD:50]
+        [CDI:VERB:project dread aura:projects dread aura]
+        [CDI:WAIT_PERIOD:65]
     [CAN_DO_INTERACTION:KRAMPUS_JUDGEMENT]
         [CDI:USAGE_HINT:CONFLICT]
         [CDI:TARGET:A:LINE_OF_SIGHT]
         [CDI:TARGET_RANGE:A:15]
-        [CDI:WAIT_PERIOD:200]
+        [CDI:VERB:judge:judges]
+        [CDI:WAIT_PERIOD:250]
 
     ##### Attacks (kept light to emphasize interactions)
     [ATTACK:BITE:MAIN:BY_CATEGORY:TOOTH]
