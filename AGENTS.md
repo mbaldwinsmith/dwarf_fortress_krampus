@@ -45,7 +45,7 @@ If files don’t exist yet, create them in the above structure.
   - `KRAMPUS_JUDGEMENT`
   - `KRAMPUS_DREAD_AURA`
 - Items:
-  - `ITEM_WEAPON_BIRCH_TWIG` (or tool-based alternative)
+  - `ITEM_WEAPON_KRAMPUS_BIRCH_SWITCH` (or tool-based alternative)
   - `ITEM_KRAMPUS_SACK`
 
 Be consistent across raws. Do not silently rename IDs without updating all references.

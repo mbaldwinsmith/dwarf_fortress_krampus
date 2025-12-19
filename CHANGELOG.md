@@ -31,4 +31,14 @@ Dates use the ISO `YYYY-MM-DD` format to keep entries chronological.
 - Added a Krampus graphic.
 - Extended the dread aura to cover a large radius with mild guilt and fear.
 - Added README balance notes with expected difficulty and tuning guidance.
+- Boosted Krampus horn and fur material value for high-value crafts.
+- Namespaced the birch switch item ID to `ITEM_WEAPON_KRAMPUS_BIRCH_SWITCH`.
+- Updated README installation steps to cover Steam Workshop and manual mod folder installs.
+- Documented the graphics folder in README installation and file guide.
+- Replaced deprecated combat skill tokens with MELEE_COMBAT, GRASP_STRIKE, and STANCE_STRIKE.
+- Updated interaction verbs to use folklore phrasing in combat logs.
 - Fixed invalid raw tokens across creature, interactions, items, and graphics, and aligned seasonal flavor with cold biomes.
+- Added a long-lived Krampus mark applied by lash and, at low chance, dread aura to bias future judgement.
+- Added a marked-only judgement interaction with a slightly shorter cooldown and stronger emotions.
+- Consolidated the lash and mark syndromes to prevent duplicate birch lash log lines.
+- Raised guilt intensity across lash, dread aura, and judgement so it shows up more reliably in dwarf thoughts.

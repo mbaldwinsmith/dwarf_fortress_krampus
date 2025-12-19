@@ -45,6 +45,14 @@ creature_krampus
     [USE_MATERIAL_TEMPLATE:PUS:PUS_TEMPLATE]
     [PUS:LOCAL_CREATURE_MAT:PUS:LIQUID]
 
+    ##### High-value materials for crafts and trophies
+    [SELECT_MATERIAL:HORN]
+        [MATERIAL_VALUE:12]
+        [STATE_NAME_ADJ:ALL_SOLID:krampus horn]
+    [SELECT_MATERIAL:HAIR]
+        [MATERIAL_VALUE:6]
+        [STATE_NAME_ADJ:ALL_SOLID:krampus fur]
+
     ##### Personality and lore hooks
     [NATURAL]
     [CURIOUSBEAST_ITEM]
@@ -62,14 +70,15 @@ creature_krampus
     [APPLY_CREATURE_VARIATION:STANDARD_SWIMMING_GAITS:5951:5419:4898:1463:6944:8233]
 
     ##### Combat training (improves hit rate and defense)
-    [NATURAL_SKILL:FIGHTER:15]
     [NATURAL_SKILL:WRESTLING:15]
     [NATURAL_SKILL:BITE:12]
-    [NATURAL_SKILL:STRIKING:10]
+    [NATURAL_SKILL:GRASP_STRIKE:10]
+    [NATURAL_SKILL:STANCE_STRIKE:10]
+    [NATURAL_SKILL:MELEE_COMBAT:15]
     [NATURAL_SKILL:DODGING:10]
 
     ##### Placeholder inventory themes
-    [ITEMCORPSE:ITEM_WEAPON:ITEM_WEAPON_BIRCH_TWIG:NONE]
+    [ITEMCORPSE:ITEM_WEAPON:ITEM_WEAPON_KRAMPUS_BIRCH_SWITCH:NONE]
     [ITEMCORPSE_QUALITY:3]
     [ITEMCORPSE:TOOL:ITEM_KRAMPUS_SACK:NONE]
 
@@ -79,24 +88,32 @@ creature_krampus
         [CDI:BP_REQUIRED:BY_CATEGORY:GRASP]
         [CDI:TARGET:A:LINE_OF_SIGHT]
         [CDI:TARGET_RANGE:A:4]
-        [CDI:VERB:lash:lashes]
-        [CDI:TARGET_VERB:is punished with a birch switch:are punished with a birch switch]
+        [CDI:VERB:correct with a birch switch:corrects with a birch switch]
+        [CDI:TARGET_VERB:is scourged and chastised by a birch switch:are scourged and chastised by a birch switch]
         [CDI:WAIT_PERIOD:45]
     [CAN_DO_INTERACTION:KRAMPUS_DREAD_AURA]
         [CDI:USAGE_HINT:GREETING]
         [CDI:TARGET:A:LINE_OF_SIGHT]
         [CDI:TARGET_RANGE:A:50]
         [CDI:MAX_TARGET_NUMBER:A:50]
-        [CDI:VERB:project dread aura:projects dread aura]
-        [CDI:TARGET_VERB:shudder with dread:shudders with dread]
+        [CDI:VERB:ring distant bells:rings distant bells]
+        [CDI:TARGET_VERB:is unsettled by distant bells:are unsettled by distant bells]
         [CDI:WAIT_PERIOD:75]
     [CAN_DO_INTERACTION:KRAMPUS_JUDGEMENT]
         [CDI:USAGE_HINT:ATTACK]
         [CDI:TARGET:A:LINE_OF_SIGHT]
         [CDI:TARGET_RANGE:A:15]
-        [CDI:VERB:judge:judges]
-        [CDI:TARGET_VERB:quake with guilt:quakes with guilt]
+        [CDI:VERB:fix his gaze upon:fixes his gaze upon]
+        [CDI:TARGET_VERB:is judged:are judged]
         [CDI:WAIT_PERIOD:250]
+    ##### Marked judgement, favors prior offenders
+    [CAN_DO_INTERACTION:KRAMPUS_JUDGEMENT_MARKED]
+        [CDI:USAGE_HINT:ATTACK]
+        [CDI:TARGET:A:LINE_OF_SIGHT]
+        [CDI:TARGET_RANGE:A:15]
+        [CDI:VERB:return his gaze to:returns his gaze to]
+        [CDI:TARGET_VERB:is judged once more:are judged once more]
+        [CDI:WAIT_PERIOD:210]
 
     ##### Attacks (kept light to emphasize interactions)
     [ATTACK:BITE:CHILD_BODYPART_GROUP:BY_CATEGORY:HEAD:BY_CATEGORY:TOOTH]

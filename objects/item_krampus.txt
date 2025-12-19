@@ -7,7 +7,7 @@ item_krampus
 # Birch switch weapon and sack tool entries.
 #####
 
-[ITEM_WEAPON:ITEM_WEAPON_BIRCH_TWIG]
+[ITEM_WEAPON:ITEM_WEAPON_KRAMPUS_BIRCH_SWITCH]
     [NAME:birch switch:birch switches]
     [SIZE:400]
     [SKILL:WHIP]

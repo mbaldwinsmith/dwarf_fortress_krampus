@@ -42,35 +42,15 @@
 ### Behaviour tuning
 - [x] Fine-tune aura range and duration based on play feedback.
 - [x] Add minor variation to judgement effects for replayability.
+- [x] Add a Krampus remembers bias so judgement favors previously corrected dwarves.
 
 ### Documentation
 - [x] Expand README with balance notes and expected difficulty.
 - [x] Add combat log callouts for interaction hits.
-
----
-
-## v2.0 – Expanded festive FUN (optional modules)
+- [x] Add folklore combat log language for interaction messages.
 
 ### Loot, reactions & workshops
-- [ ] Add Krampus horns or fur as high-value crafting materials.
-- [ ] Add optional reactions using birch twigs (toys, decorations, rituals).
-- [ ] Introduce cursed festive items with mild psychological effects.
-- [ ] Add a Toy Workshop or equivalent festive structure.
-
-### Advanced behaviour
-- [ ] Add variant judgement syndromes (repeat offenders, nobles, administrators).
-- [ ] Add conditional behaviour for child-heavy fortresses.
-- [ ] Add a chance for Krampus to disengage or retreat after successful judgements.
-- [ ] Add ominous speech or bell-themed flavour interactions.
+- [x] Add Krampus horns or fur as high-value crafting materials.
 
 ### Worldgen & integration
-- [ ] Add legends-mode references (worship, demon lore, historical events).
-- [ ] Ensure all IDs use a clear namespace prefix (`KRAMPUS_`).
-- [ ] Provide guidance for safe integration with seasonal creature packs.
-
-### Adventure mode & extras
-- [ ] Validate behaviour in adventure mode and document expectations.
-- [ ] Add adventure-facing dialogue or interactions if feasible.
-- [ ] Consider reindeer thralls, counter-rituals, or banishment mechanics as optional extras.
-
-
+- [x] Ensure all IDs use a clear namespace prefix (`KRAMPUS_`).
