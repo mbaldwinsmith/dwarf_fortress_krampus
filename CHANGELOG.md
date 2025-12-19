@@ -15,3 +15,6 @@ Dates use the ISO `YYYY-MM-DD` format to keep entries chronological.
 - Refined lash, dread aura, and judgement syndromes to emphasize pain, guilt, and fear without permanent harm.
 - Polished birch twig and sack items with consistent value, size, and attack flavour.
 - Updated README to reflect tuned mechanics and current scope notes.
+
+## 2025-12-20
+- Fixed invalid raw tokens across creature, interactions, items, and graphics, and aligned seasonal flavor with cold biomes.

@@ -3,7 +3,7 @@
 A festive Dwarf Fortress raw mod that brings **Krampus** to life as a midwinter megabeast. He spreads dread, judges the naughty, lashes dwarves with birch-switch justice, kidnaps the unwary, and leaves unsettling folklore behind. Seasonal, psychological, and gloriously FUN.
 
 ## Features
-- **Seasonal megabeast** tuned for late autumn and winter appearances
+- **Seasonal megabeast** tuned for late autumn and winter, modeled with cold-biome spawns
 - **Interaction-based abilities** rather than raw damage spam:
   - Birch-switch lash (pain and shame focused)
   - Passive midwinter dread aura
@@ -37,6 +37,7 @@ A festive Dwarf Fortress raw mod that brings **Krampus** to life as a midwinter 
 ## Known issues / notes
 - Balance values are intentionally conservative and expected to be tuned after in-game testing.
 - Emotional syndromes can be powerful; adjust ranges and durations carefully if modifying.
+- Seasonal timing is approximated via taiga, tundra, and mountain biomes because raws do not support true season-only spawns.
 - This mod is not beginner-friendly and may destabilise poorly prepared fortresses.
 
 ## License

@@ -1,0 +1,38 @@
+[ID:krampus_midwinter_fun]
+[NUMERIC_VERSION:10]
+[DISPLAYED_VERSION:1.0]
+[EARLIEST_COMPATIBLE_NUMERIC_VERSION:10]
+[EARLIEST_COMPATIBLE_DISPLAYED_VERSION:1.0]
+[AUTHOR:Mark Baldwin-Smith]
+[NAME:Krampus of Midwinter (Megabeast)]
+[DESCRIPTION:At the edge of the year, when the nights grow long and the world turns inward, Krampus walks.
+
+This mod introduces Krampus as a midwinter megabeast drawn from Alpine folklore and Dwarf Fortress tradition. He does not come as a simple killer, but as a punisher and disturber. His presence unsettles the fortress. Bells echo, courage falters, and even the stout-hearted feel a creeping unease.
+
+Krampus lashes the unwary with birch-switch justice, leaves survivors shaken by shame and fear, and sometimes fixes his gaze upon a single soul for judgement. He carries a heavy sack and leaves behind unsettling traces of his passing.
+
+This is a raw-only mod with no scripting required. Generate a new world, prepare your fortress, and remember that not every winter visitor comes bearing gifts.]
+
+[STEAM_TITLE:Krampus of Midwinter (Megabeast)]
+[STEAM_DESCRIPTION:At the edge of the year, when the nights grow long and the world turns inward, Krampus walks.
+
+This mod introduces Krampus as a midwinter megabeast drawn from Alpine folklore and Dwarf Fortress tradition. He does not come as a simple killer, but as a punisher and disturber. His presence unsettles the fortress. Bells echo, courage falters, and even the stout-hearted feel a creeping unease.
+
+Krampus lashes the unwary with birch-switch justice, leaves survivors shaken by shame and fear, and sometimes fixes his gaze upon a single soul for judgement. He carries a heavy sack and leaves behind unsettling traces of his passing.
+
+This is a raw-only mod with no scripting required. Generate a new world, prepare your fortress, and remember that not every winter visitor comes bearing gifts.]
+[STEAM_TAG:mod]
+[STEAM_TAG:megabeast]
+[STEAM_TAG:seasonal]
+[STEAM_TAG:folklore]
+[STEAM_TAG:horror]
+[STEAM_TAG:fortress]
+[STEAM_TAG:adventure]
+[STEAM_CHANGELOG:0.1 - Initial creature raw and file layout.]
+[STEAM_CHANGELOG:0.2 - Add interaction hooks and targeting setup.]
+[STEAM_CHANGELOG:0.3 - Implement birch lash as interaction-based syndrome.]
+[STEAM_CHANGELOG:0.4 - Add dread aura and judgement interactions.]
+[STEAM_CHANGELOG:0.5 - Add themed items and sack placeholders.]
+[STEAM_CHANGELOG:0.6 - Balance pass on ranges, wait periods, and syndrome durations.]
+[STEAM_CHANGELOG:0.9 - Documentation polish and validation.]
+[STEAM_CHANGELOG:1.0 - Steam release.]
