@@ -8,7 +8,7 @@ creature_krampus
 #####
 
 [CREATURE:KRAMPUS]
-    [DESCRIPTION:A horned winter fiend that punishes the naughty and spreads midwinter dread.]
+    [DESCRIPTION:A horned midwinter fiend wreathed in bells and birch switches, dragging a sooty sack as it punishes the naughty and spreads dread.]
     [NAME:Krampus:Krampuses:Krampus]
     [CASTE_NAME:Krampus:Krampuses:Krampus]
     [CREATURE_TILE:'K'][COLOR:4:0:0]
@@ -27,7 +27,6 @@ creature_krampus
     [BIOME:TAIGA]
     [BIOME:TUNDRA]
     [BENIGN]
-    [NO_AGING]
     [NO_GENDER]
     [CANOPENDOORS]
 
@@ -55,10 +54,19 @@ creature_krampus
 
     ##### Behavior pacing (tuned for interaction cadence)
     [PHYS_ATT_RANGE:STRENGTH:900:1000:1100:1300:1400:1600:1800]
+    [PHYS_ATT_RANGE:ENDURANCE:1200:1400:1600:1800:2000:2200:2400]
+    [PHYS_ATT_RANGE:TOUGHNESS:1200:1400:1600:1800:2000:2200:2400]
     [MENT_ATT_RANGE:WILLPOWER:900:1000:1100:1200:1300:1400:1500]
     [APPLY_CREATURE_VARIATION:STANDARD_BIPED_GAITS:900:711:521:293:1900:2900]
     [APPLY_CREATURE_VARIATION:STANDARD_CRAWLING_GAITS:2990:2257:1525:731:4300:6100]
     [APPLY_CREATURE_VARIATION:STANDARD_SWIMMING_GAITS:5951:5419:4898:1463:6944:8233]
+
+    ##### Combat training (improves hit rate and defense)
+    [NATURAL_SKILL:FIGHTER:15]
+    [NATURAL_SKILL:WRESTLING:15]
+    [NATURAL_SKILL:BITE:12]
+    [NATURAL_SKILL:STRIKING:10]
+    [NATURAL_SKILL:DODGING:10]
 
     ##### Placeholder inventory themes
     [ITEMCORPSE:ITEM_WEAPON:ITEM_WEAPON_BIRCH_TWIG:NONE]
@@ -72,19 +80,22 @@ creature_krampus
         [CDI:TARGET:A:LINE_OF_SIGHT]
         [CDI:TARGET_RANGE:A:4]
         [CDI:VERB:lash:lashes]
+        [CDI:TARGET_VERB:is punished with a birch switch:are punished with a birch switch]
         [CDI:WAIT_PERIOD:45]
     [CAN_DO_INTERACTION:KRAMPUS_DREAD_AURA]
         [CDI:USAGE_HINT:GREETING]
         [CDI:TARGET:A:LINE_OF_SIGHT]
-        [CDI:TARGET_RANGE:A:10]
-        [CDI:MAX_TARGET_NUMBER:A:5]
+        [CDI:TARGET_RANGE:A:50]
+        [CDI:MAX_TARGET_NUMBER:A:50]
         [CDI:VERB:project dread aura:projects dread aura]
-        [CDI:WAIT_PERIOD:65]
+        [CDI:TARGET_VERB:shudder with dread:shudders with dread]
+        [CDI:WAIT_PERIOD:75]
     [CAN_DO_INTERACTION:KRAMPUS_JUDGEMENT]
         [CDI:USAGE_HINT:ATTACK]
         [CDI:TARGET:A:LINE_OF_SIGHT]
         [CDI:TARGET_RANGE:A:15]
         [CDI:VERB:judge:judges]
+        [CDI:TARGET_VERB:quake with guilt:quakes with guilt]
         [CDI:WAIT_PERIOD:250]
 
     ##### Attacks (kept light to emphasize interactions)
@@ -105,10 +116,10 @@ creature_krampus
         [ATTACK_FLAG_WITH]
         [ATTACK_PRIORITY:SECOND]
 
-    ##### Body size and age milestones (placeholder values)
-    [BODY_SIZE:0:0:70000]
-    [BODY_SIZE:1:0:90000]
-    [BODY_SIZE:5:0:120000]
+    ##### Body size and age milestones (megabeast scale)
+    [BODY_SIZE:0:0:250000]
+    [BODY_SIZE:1:0:350000]
+    [BODY_SIZE:5:0:500000]
     [MAXAGE:1000:2000]
 
     ##### Resistances and quirks

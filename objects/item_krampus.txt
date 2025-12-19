@@ -4,11 +4,11 @@ item_krampus
 
 #####
 # KRAMPUS THEMED ITEMS
-# Birch twig weapon and sack tool entries.
+# Birch switch weapon and sack tool entries.
 #####
 
 [ITEM_WEAPON:ITEM_WEAPON_BIRCH_TWIG]
-    [NAME:birch twig:birch twigs]
+    [NAME:birch switch:birch switches]
     [SIZE:400]
     [SKILL:WHIP]
     [TWO_HANDED:0]
@@ -19,7 +19,7 @@ item_krampus
         [ATTACK_FLAG_BAD_MULTIATTACK]
 
 [ITEM_TOOL:ITEM_KRAMPUS_SACK]
-    [NAME:Krampus sack:Krampus sacks]
+    [NAME:soot-black krampus sack:soot-black krampus sacks]
     [VALUE:50]
     [SOFT_MAT]
     [SIZE:6000]

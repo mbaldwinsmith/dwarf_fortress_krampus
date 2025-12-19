@@ -36,20 +36,16 @@
 ## v1.1 – Festive polish & flavour
 
 ### Presentation
-- [ ] Enrich creature description with bells, birch, and midwinter folklore.
-- [ ] Adjust creature tile or colour for strong visual identity.
-- [ ] Improve item descriptions with unsettling festive flavour.
-- [ ] Add legends-friendly wording for exported stories.
+- [x] Enrich creature description with bells, birch, and midwinter folklore.
+- [x] Improve item descriptions with unsettling festive flavour.
 
 ### Behaviour tuning
-- [ ] Fine-tune aura range and duration based on play feedback.
-- [ ] Adjust lash frequency to feel “disciplinary” rather than chaotic.
-- [ ] Add minor variation to judgement effects for replayability.
+- [x] Fine-tune aura range and duration based on play feedback.
+- [x] Add minor variation to judgement effects for replayability.
 
 ### Documentation
-- [ ] Expand README with balance notes and expected difficulty.
-- [ ] Add compatibility notes for other holiday or megabeast mods.
-- [ ] Document tuning suggestions for fortress mode vs adventure mode.
+- [x] Expand README with balance notes and expected difficulty.
+- [x] Add combat log callouts for interaction hits.
 
 ---
 
@@ -76,3 +72,5 @@
 - [ ] Validate behaviour in adventure mode and document expectations.
 - [ ] Add adventure-facing dialogue or interactions if feasible.
 - [ ] Consider reindeer thralls, counter-rituals, or banishment mechanics as optional extras.
+
+
