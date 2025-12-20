@@ -28,8 +28,8 @@ A festive Dwarf Fortress raw mod that brings **Krampus** to life as a midwinter 
 4. Generate a **new world** to ensure Krampus is placed correctly in worldgen.
 
 ## DFHack (optional)
-If DFHack is installed, the mod auto-runs `krampus_announce` to announce Krampus arriving and being slain.
-It also spawns the birch switch on death, because itemcorpse drops do not trigger for living megabeasts.
+If DFHack is installed, the mod auto-runs `krampus_announce` to announce Krampus arriving and being slain in Fortress, Adventure, and Arena mode.
+It also spawns a masterwork birch switch on death in those modes, because itemcorpse drops do not trigger for living megabeasts.
 To disable it, remove or comment out `krampus_announce` in `hack/init/onLoad.init`.
 
 ## File guide
@@ -41,10 +41,8 @@ To disable it, remove or comment out `krampus_announce` in `hack/init/onLoad.ini
   Birch switch weapon entry for loot and flavour expansion.
 - `graphics/`  
   Krampus sprites and graphics definitions.
-- `hack/scripts/krampus_announce.lua`  
+- `scripts_modactive/krampus_announce.lua`  
   DFHack script that announces Krampus arrival and death, and spawns the birch switch.
-- `hack/init/onLoad.init`  
-  DFHack init file that auto-runs the announcement script.
 
 ## Design philosophy
 - **FUN over lethality**: pain, fear, shame, and disruption matter more than raw damage, although Krampus is still lethal in close quarters.

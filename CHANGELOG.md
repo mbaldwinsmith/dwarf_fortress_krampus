@@ -51,3 +51,7 @@ Dates use the ISO `YYYY-MM-DD` format to keep entries chronological.
 - Removed the sack loot drop so Krampus leaves only a birch switch.
 - Removed horn and fur value tuning references to reflect itemcorpse-only loot.
 - Added a DFHack helper to spawn the birch switch on Krampus death.
+- Set the birch switch drop to masterwork quality.
+- Enabled DFHack announcements and birch switch drops in Adventure and Arena mode.
+- Moved the DFHack script into scripts_modactive so it auto-loads with the mod.
+- Fixed the Krampus itemcorpse token to use WEAPON instead of ITEM_WEAPON so raws compile.

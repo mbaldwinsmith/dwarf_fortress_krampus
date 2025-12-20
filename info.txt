@@ -11,7 +11,7 @@ This mod introduces Krampus as a midwinter megabeast drawn from Alpine folklore 
 
 Krampus lashes the unwary with birch-switch justice, leaves survivors shaken by shame and fear, and sometimes fixes his gaze upon a single soul for judgement.
 
-This is a raw-only mod. If DFHack is installed, it auto-announces Krampus arrivals and deaths, and spawns the birch switch on death. Generate a new world, prepare your fortress, and remember that not every winter visitor comes bearing gifts.
+This is a raw-only mod. If DFHack is installed, it auto-announces Krampus arrivals and defeat, and spawns the birch switch, a ☼masterwork☼ whip, on death, in Fortress, Adventure, and Arena mode. Generate a new world, prepare your fortress, and remember that not every winter visitor comes bearing gifts.
 
 Please do offer balance suggestions!]
 
@@ -22,7 +22,7 @@ This mod introduces Krampus as a midwinter megabeast drawn from Alpine folklore 
 
 Krampus lashes the unwary with birch-switch justice, leaves survivors shaken by shame and fear, and sometimes fixes his gaze upon a single soul for judgement.
 
-This is a raw-only mod. If DFHack is installed, it auto-announces Krampus arrivals and deaths, and spawns the birch switch on death. Generate a new world, prepare your fortress, and remember that not every winter visitor comes bearing gifts.
+This is a raw-only mod. If DFHack is installed, it auto-announces Krampus arrivals and defeat, and spawns the birch switch, a ☼masterwork☼ whip, on death, in Fortress, Adventure, and Arena mode. Generate a new world, prepare your fortress, and remember that not every winter visitor comes bearing gifts.
 
 Please do offer balance suggestions!]
 [STEAM_TAG:mod]
@@ -51,6 +51,10 @@ Please do offer balance suggestions!]
 [STEAM_CHANGELOG:1.1 - Fixed Krampus corpse loot so the birch switch and soot-black sack drop correctly.]
 [STEAM_CHANGELOG:1.1 - Removed the sack loot drop so Krampus leaves only a birch switch.]
 [STEAM_CHANGELOG:1.1 - Aligned loot notes with itemcorpse drop behavior.]
-[STEAM_CHANGELOG:1.1 - Added a DFHack birch switch drop helper for Krampus deaths.]
+[STEAM_CHANGELOG:1.2 - Added a DFHack birch switch drop helper for Krampus deaths.]
+[STEAM_CHANGELOG:1.2 - Set the birch switch drop to masterwork quality.]
+[STEAM_CHANGELOG:1.2 - Enabled DFHack announcements and birch switch drops in Adventure and Arena mode.]
+[STEAM_CHANGELOG:1.2 - Moved DFHack scripts to scripts_modactive so they auto-load.]
+[STEAM_CHANGELOG:1.2 - Fixed the Krampus itemcorpse token to use WEAPON so raws compile.]
 
 [STEAM_FILE_ID:3626932663]
