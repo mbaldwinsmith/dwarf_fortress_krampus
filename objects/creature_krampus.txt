@@ -8,7 +8,7 @@ creature_krampus
 #####
 
 [CREATURE:KRAMPUS]
-    [DESCRIPTION:A horned midwinter fiend wreathed in bells and birch switches, dragging a sooty sack as it punishes the naughty and spreads dread.]
+    [DESCRIPTION:A horned midwinter fiend wreathed in bells and birch switches as it punishes the naughty and spreads dread.]
     [NAME:Krampus:Krampuses:Krampus]
     [CASTE_NAME:Krampus:Krampuses:Krampus]
     [CREATURE_TILE:'K'][COLOR:4:0:0]
@@ -45,12 +45,14 @@ creature_krampus
     [USE_MATERIAL_TEMPLATE:PUS:PUS_TEMPLATE]
     [PUS:LOCAL_CREATURE_MAT:PUS:LIQUID]
 
-    ##### High-value materials for crafts and trophies
+    ##### Loot materials for corpse items
+    [USE_MATERIAL_TEMPLATE:BIRCH_WOOD:WOOD_TEMPLATE]
+        [STATE_NAME_ADJ:ALL_SOLID:birch]
+
+    ##### Material names for body parts
     [SELECT_MATERIAL:HORN]
-        [MATERIAL_VALUE:12]
         [STATE_NAME_ADJ:ALL_SOLID:krampus horn]
     [SELECT_MATERIAL:HAIR]
-        [MATERIAL_VALUE:6]
         [STATE_NAME_ADJ:ALL_SOLID:krampus fur]
 
     ##### Personality and lore hooks
@@ -78,9 +80,8 @@ creature_krampus
     [NATURAL_SKILL:DODGING:10]
 
     ##### Placeholder inventory themes
-    [ITEMCORPSE:ITEM_WEAPON:ITEM_WEAPON_KRAMPUS_BIRCH_SWITCH:NONE]
+    [ITEMCORPSE:ITEM_WEAPON:ITEM_WEAPON_KRAMPUS_BIRCH_SWITCH:LOCAL_CREATURE_MAT:BIRCH_WOOD]
     [ITEMCORPSE_QUALITY:3]
-    [ITEMCORPSE:TOOL:ITEM_KRAMPUS_SACK:NONE]
 
     ##### Interaction hooks (syndromes defined in interaction_krampus.txt)
     [CAN_DO_INTERACTION:KRAMPUS_BIRCH_LASH]

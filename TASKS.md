@@ -48,9 +48,10 @@
 - [x] Expand README with balance notes and expected difficulty.
 - [x] Add combat log callouts for interaction hits.
 - [x] Add folklore combat log language for interaction messages.
+- [x] Add optional DFHack announcement hook for Krampus arrival and death.
 
 ### Loot, reactions & workshops
-- [x] Add Krampus horns or fur as high-value crafting materials.
+- [x] Align loot notes with itemcorpse drop behavior.
 
 ### Worldgen & integration
 - [x] Ensure all IDs use a clear namespace prefix (`KRAMPUS_`).

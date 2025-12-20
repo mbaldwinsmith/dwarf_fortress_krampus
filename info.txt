@@ -1,17 +1,17 @@
 [ID:krampus_midwinter_fun]
-[NUMERIC_VERSION:11]
-[DISPLAYED_VERSION:1.1]
-[EARLIEST_COMPATIBLE_NUMERIC_VERSION:11]
-[EARLIEST_COMPATIBLE_DISPLAYED_VERSION:1.1]
+[NUMERIC_VERSION:12]
+[DISPLAYED_VERSION:1.2]
+[EARLIEST_COMPATIBLE_NUMERIC_VERSION:12]
+[EARLIEST_COMPATIBLE_DISPLAYED_VERSION:1.2]
 [AUTHOR:Mark Baldwin-Smith]
 [NAME:Krampus of Midwinter (Festive Megabeast)]
 [DESCRIPTION:At the edge of the year, when the nights grow long and the world turns inward, Krampus walks.
 
 This mod introduces Krampus as a midwinter megabeast drawn from Alpine folklore and Dwarf Fortress tradition. He does not come as a simple killer, but as a punisher and disturber. His presence unsettles the fortress. Bells echo, courage falters, and even the stout-hearted feel a creeping unease.
 
-Krampus lashes the unwary with birch-switch justice, leaves survivors shaken by shame and fear, and sometimes fixes his gaze upon a single soul for judgement. He carries a heavy sack and leaves behind unsettling traces of his passing.
+Krampus lashes the unwary with birch-switch justice, leaves survivors shaken by shame and fear, and sometimes fixes his gaze upon a single soul for judgement.
 
-This is a raw-only mod with no scripting required. Generate a new world, prepare your fortress, and remember that not every winter visitor comes bearing gifts.
+This is a raw-only mod. If DFHack is installed, it auto-announces Krampus arrivals and deaths, and spawns the birch switch on death. Generate a new world, prepare your fortress, and remember that not every winter visitor comes bearing gifts.
 
 Please do offer balance suggestions!]
 
@@ -20,9 +20,9 @@ Please do offer balance suggestions!]
 
 This mod introduces Krampus as a midwinter megabeast drawn from Alpine folklore and Dwarf Fortress tradition. He does not come as a simple killer, but as a punisher and disturber. His presence unsettles the fortress. Bells echo, courage falters, and even the stout-hearted feel a creeping unease.
 
-Krampus lashes the unwary with birch-switch justice, leaves survivors shaken by shame and fear, and sometimes fixes his gaze upon a single soul for judgement. He carries a heavy sack and leaves behind unsettling traces of his passing.
+Krampus lashes the unwary with birch-switch justice, leaves survivors shaken by shame and fear, and sometimes fixes his gaze upon a single soul for judgement.
 
-This is a raw-only mod with no scripting required. Generate a new world, prepare your fortress, and remember that not every winter visitor comes bearing gifts.
+This is a raw-only mod. If DFHack is installed, it auto-announces Krampus arrivals and deaths, and spawns the birch switch on death. Generate a new world, prepare your fortress, and remember that not every winter visitor comes bearing gifts.
 
 Please do offer balance suggestions!]
 [STEAM_TAG:mod]
@@ -43,6 +43,14 @@ Please do offer balance suggestions!]
 [STEAM_CHANGELOG:1.1 - Added Krampus graphics and combat log callouts for interactions.]
 [STEAM_CHANGELOG:1.1 - Tuned megabeast durability, endurance, and combat skills.]
 [STEAM_CHANGELOG:1.1 - Expanded dread aura range with mild guilt and fear.]
-[STEAM_CHANGELOG:1.1 - Added horn and fur material value for trophy crafting.]
 [STEAM_CHANGELOG:1.1 - Updated README install steps for Workshop, manual, and graphics.]
 [STEAM_CHANGELOG:1.1 - Added Krampus remembers bias, lash and dread mark dwarves and judgement favors the marked.]
+[STEAM_CHANGELOG:1.1 - Added optional DFHack auto announcements for Krampus arrival and death.]
+[STEAM_CHANGELOG:1.1 - Extended fear, guilt, and shame durations so Krampus thoughts linger longer.]
+[STEAM_CHANGELOG:1.1 - Greatly extended the duration of Krampus syndrome effects so they linger for months.]
+[STEAM_CHANGELOG:1.1 - Fixed Krampus corpse loot so the birch switch and soot-black sack drop correctly.]
+[STEAM_CHANGELOG:1.1 - Removed the sack loot drop so Krampus leaves only a birch switch.]
+[STEAM_CHANGELOG:1.1 - Aligned loot notes with itemcorpse drop behavior.]
+[STEAM_CHANGELOG:1.1 - Added a DFHack birch switch drop helper for Krampus deaths.]
+
+[STEAM_FILE_ID:3626932663]

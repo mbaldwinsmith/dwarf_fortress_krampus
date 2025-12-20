@@ -13,9 +13,9 @@ A festive Dwarf Fortress raw mod that brings **Krampus** to life as a midwinter 
 - **Megabeast-scale build** so bare-handed dwarves have a harder time punching him down
 - **Elite combat training** to land hits more reliably and stay in the fight
 - **Supernatural toughness** to survive elite weapon strikes
-- **High-value horns and fur** for crafts and trophies
-- **Folklore-themed loot hooks**, including birch switches and a soot-black sack
-- **Raw-only mod**, no DFHack or scripting required
+- **Folklore-themed loot drops**, including birch switches
+- **Optional DFHack helpers** for announcements and birch switch drops, auto-enabled if DFHack is installed
+- **No DFHack required** to use the mod
 - Designed to disrupt, destabilise, and terrify rather than simply kill
 
 ## Installation
@@ -27,15 +27,24 @@ A festive Dwarf Fortress raw mod that brings **Krampus** to life as a midwinter 
    - `item_krampus.txt`
 4. Generate a **new world** to ensure Krampus is placed correctly in worldgen.
 
+## DFHack (optional)
+If DFHack is installed, the mod auto-runs `krampus_announce` to announce Krampus arriving and being slain.
+It also spawns the birch switch on death, because itemcorpse drops do not trigger for living megabeasts.
+To disable it, remove or comment out `krampus_announce` in `hack/init/onLoad.init`.
+
 ## File guide
 - `objects/creature_krampus.txt`  
   Krampus creature definition, including seasonal presence and interaction hooks.
 - `objects/interaction_krampus.txt`  
   Interaction-based lash, dread aura, and judgement syndromes targeting dwarves.
 - `objects/item_krampus.txt`  
-  Birch switch weapon and sack tool placeholders for loot and flavour expansion.
+  Birch switch weapon entry for loot and flavour expansion.
 - `graphics/`  
   Krampus sprites and graphics definitions.
+- `hack/scripts/krampus_announce.lua`  
+  DFHack script that announces Krampus arrival and death, and spawns the birch switch.
+- `hack/init/onLoad.init`  
+  DFHack init file that auto-runs the announcement script.
 
 ## Design philosophy
 - **FUN over lethality**: pain, fear, shame, and disruption matter more than raw damage, although Krampus is still lethal in close quarters.
@@ -47,6 +56,7 @@ A festive Dwarf Fortress raw mod that brings **Krampus** to life as a midwinter 
 - Krampus is tuned to overwhelm unarmored dwarves, armored elites can still win with numbers or a lucky strike.
 - The dread omen is long range and mild, proximity and judgement make it spike.
 - Lash and judgement are interaction-based, tweaking wait periods shifts frequency without inflating raw damage.
+- Krampus syndromes now linger for months, with dread and judgement leaving long-lived fear and guilt.
 
 ## License
 Use, modify, and expand freely. If you build something festive and terrible on top of this, that's a success.

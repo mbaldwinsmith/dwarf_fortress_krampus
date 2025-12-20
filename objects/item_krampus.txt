@@ -4,11 +4,11 @@ item_krampus
 
 #####
 # KRAMPUS THEMED ITEMS
-# Birch switch weapon and sack tool entries.
+# Birch switch weapon entry.
 #####
 
 [ITEM_WEAPON:ITEM_WEAPON_KRAMPUS_BIRCH_SWITCH]
-    [NAME:birch switch:birch switches]
+    [NAME:switch:switches]
     [SIZE:400]
     [SKILL:WHIP]
     [TWO_HANDED:0]
@@ -17,13 +17,3 @@ item_krampus
     [ATTACK:BLUNT:1:10:swat:swats:NO_SUB:5000]
         [ATTACK_PREPARE_AND_RECOVER:4:4]
         [ATTACK_FLAG_BAD_MULTIATTACK]
-
-[ITEM_TOOL:ITEM_KRAMPUS_SACK]
-    [NAME:soot-black krampus sack:soot-black krampus sacks]
-    [VALUE:50]
-    [SOFT_MAT]
-    [SIZE:6000]
-    [MATERIAL_SIZE:4]
-    [TOOL_USE:SMALL_OBJECT_STORAGE]
-    [TILE:173]
-    [CONTAINER_CAPACITY:10000]
